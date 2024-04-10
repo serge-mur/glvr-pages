@@ -440,6 +440,7 @@ body._lock {
         width: 25px;
         height: 25px;
         background: url(../image/х.svg) no-repeat;
+        cursor: pointer;
     }
     .common-page__sidebar {
         display: none;
@@ -486,3 +487,19 @@ body._lock {
         font-weight: 500;
     }
 }
+
+.section-title {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+}
+@media (max-width: 575px) {
+    .section-title {
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: 400;
+    }    
+}
+
