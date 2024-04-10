@@ -1,0 +1,59 @@
+.section-title {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+}
+.news-block {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    row-gap: 100px;
+    margin-bottom: 100px;
+}
+.news-block__item {}
+
+.news-block__image {
+    margin-bottom: 20px;
+}
+.news-block__date {
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    background: url(../image/calendar.svg) no-repeat left bottom;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+.news-block__title {
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 500;
+    height: auto;
+}
+
+@media (max-width: 991px) {
+    .news-block {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .news-block__title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+@media (max-width: 575px) {
+    .section-title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .news-block__title {
+        font-size: 24px;
+        line-height: 26px;
+    }
+}
+
+.pagination-block {
+    margin-bottom: 110px;
+}
