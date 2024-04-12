@@ -14,7 +14,7 @@
 .history-section___intro {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    column-gap: 40px;
+    column-gap: 20px;
 }
 .history-section___title,
 .history-section___text {
@@ -68,7 +68,13 @@
 /* history slider */
 .history-slider {
     display: grid;
-    position: relative;
+    grid-template-columns: repeat(9, 1fr);
+    column-gap: 20px; 
+
+}
+.history-slider__wrapper {
+    grid-column: 1 / span 8;
+    position: relative;        
 }
 .event-slider {
     height: auto;
@@ -112,6 +118,9 @@
     background: url(../image/button_next.svg) no-repeat;
 }
 @media (max-width: 991px) {
+    .history-slider__wrapper {
+        grid-column: 1 / span 9;      
+    }
     .event-slider__button-prev,
     .event-slider__button-next {
         display: none;

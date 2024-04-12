@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     eventSlider = new Swiper('.event-slider', {
       slidesPerView: 1,
       slidesPerView: 2,
-      spaceBetween: 40,
+      spaceBetween: 20,
       navigation: {
         nextEl: '.event-slider__button-next',
         prevEl: '.event-slider__button-prev',

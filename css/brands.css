@@ -22,7 +22,7 @@
 .brands-block {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    column-gap: 40px;
+    column-gap: 20px;
 }
 
 .brands-block__title {
