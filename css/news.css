@@ -61,9 +61,7 @@
     grid-template-columns: repeat(9, 1fr);
     column-gap: 20px;
 }
-
-.intro-block__data,
-.intro-block__title {
+.intro-block__wrapper {
     grid-column: 2 / span 6;
 }
 .intro-block__title {
@@ -83,7 +81,6 @@
     line-height: 19px;
     font-weight: 400;
     padding-left: 25px;
-    margin-bottom: 20px;
 }
 .intro-block__date {
     background: url(../image/calendar.svg) no-repeat left bottom;
