@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   // product slider
   const productSlider = new Swiper('.product-slider', {
-    slidesPerView: 2,
+    slidesPerView: 1.5,
     spaceBetween: 20,
     navigation: {
       nextEl: '.product-slider__button-next',
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     },
     breakpoints: {
       576: {
-        slidesPerView: 2,
+        slidesPerView: 2.5,
         spaceBetween: 30
       },
       992: {
